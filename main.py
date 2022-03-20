@@ -1,5 +1,5 @@
 import pymongo
-
+import streamlit as st
 # client = pymongo.MongoClient(**st.secrets["mongo"])
 client = pymongo.MongoClient("mongodb+srv://"+st.secrets["mongo"]["username"]+":"+st.secrets["mongo"]["password"]+"@cluster0.oxran.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 print("Welcome to PyMongo")
