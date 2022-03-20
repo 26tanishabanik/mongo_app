@@ -1,0 +1,2 @@
+streamlit
+pymongo==4.0.2
