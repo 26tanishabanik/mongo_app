@@ -1,6 +1,6 @@
 import pymongo
 
-client = pymongo.MongoClient("mongodb://localhost:27017/")
+client = pymongo.MongoClient(**st.secrets["mongo"])
 print("Welcome to PyMongo")
 db = client['Owl']
 collection = db['poems']
