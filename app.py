@@ -117,7 +117,8 @@ elif option == 'Manage Your Poems':
         
     elif opr_type == 'getPoem':
         if st.button('Submit'):
-            if GetPoem(nameOfThePoem)is None:
+            # if GetPoem(nameOfThePoem)is None:
+            if nameOfThePoem not in getAll():
                 st.text("Available Poems: ")
                 for name in getAll():
                     st.text(name)
