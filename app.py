@@ -43,6 +43,7 @@ if option == 'Home':
     st.subheader('OWLS')
     
     st.markdown('Happy Birthday', unsafe_allow_html=True)
+    st.markdown("Hey, it's me again So, it's your birthday and I know you know, you don't like birthday gifts, but trust me, this is just a very tiny token of gift from me I know, it's not the only way to show my affection for you, but one of the ways, may be. Well, to say you are with no doubt one of the important persons in my life. You mean so much to me. You know, you are sweet in your own way, I know you sometimes like to make new friends, meet new people, share your knowledge, and that is totally fine, you know. You would anyway share your knowledge 😂, and you are a great person. You are achieving great heights and may you achieve more. You are an absolutely humorous person, your jokes on any part of the house or insects, animals make me laugh so hard, it literally makes my day. You are very cute when you get angry or annoyed. I am finally at peace, that we are finally in a happy space. I don't know how much you are happy with me but I am like real happy with you. You are a very very kind, humble and down to earth person. That's the most amazing trait about you. I know we will have may be many problems coming up but we will always fight them and solve them together.",unsafe_allow_html=True)
 
 elif option == 'Manage Your Poems':
 
