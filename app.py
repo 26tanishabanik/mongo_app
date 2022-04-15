@@ -48,7 +48,7 @@ if option == 'Home':
         </style>
         '''
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.markdown(page_bg_img, unsafe_allow_html=True)
     st.subheader('OWLS')
     
     st.markdown('Happy Birthday', unsafe_allow_html=True)
