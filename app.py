@@ -42,7 +42,7 @@ if option == 'Home':
     page_bg_img = '''
         <style>
         body {
-        background-image: cats.jpeg;
+        background-image: url("cats.jpeg");
         background-size: cover;
         }
         </style>
