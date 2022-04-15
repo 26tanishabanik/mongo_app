@@ -39,7 +39,16 @@ if option == 'Home':
     #       """,
     #       unsafe_allow_html=True
     # )
-    
+    page_bg_img = '''
+        <style>
+        body {
+        background-image: cats.jpeg;
+        background-size: cover;
+        }
+        </style>
+        '''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
     st.subheader('OWLS')
     
     st.markdown('Happy Birthday', unsafe_allow_html=True)
