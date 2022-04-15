@@ -126,9 +126,13 @@ elif option == 'Manage Your Poems':
                     st.text(value)
     elif opr_type == 'delete':
         if st.button('Submit'):
-            if GetPoemName(nameOfThePoem) is not None:
+            # if GetPoemName(nameOfThePoem) is not None:
+            #     delete(nameOfThePoem)
+            #     st.text('Deleted')
+            if nameOfThePoem in getAll():
                 delete(nameOfThePoem)
                 st.text('Deleted')
+
             else:
                 st.text("Available Poems: ")
                 for name in getAll():
