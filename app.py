@@ -130,7 +130,7 @@ elif option == 'Manage Your Poems':
             #     delete(nameOfThePoem)
             #     st.text('Deleted')
             if nameOfThePoem in getAll():
-                delete({'_id': ({"PoemName": nameOfThePoem})})
+                delete({"PoemName": nameOfThePoem})
                 st.text('Deleted')
 
             else:
