@@ -140,6 +140,6 @@ elif option == 'Manage Your Poems':
 
 elif option == 'About Me':
 
-    st.subheader('Tuku')
+    st.subheader('Tuku, the parrot !!')
     st.markdown("It's Tuku here again, though we already got introduced on the home page, I talk a lot, don't I,👻, So, this was a small gift from me, I don't know when you will start writing poems again, given your tight schedule. But I really hope, you start wriitng again, just because you are an extremely talented writer, and may be this token of gift reminds you of that. That's all, won't talk much 😉",unsafe_allow_html=True)
     
