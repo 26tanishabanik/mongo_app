@@ -145,7 +145,8 @@ elif option == 'About Me':
     st.text("")
     st.text("")
     st.markdown("Tune Private Limited ", unsafe_allow_html = True)
-    st.image(
-    "https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-ynmvLvIVxxofJuk9MO", 
-    width=400, 
-    )
+    # st.image(
+    # "https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-ynmvLvIVxxofJuk9MO", 
+    # width=400, 
+    # )
+    st.write("![Your Awsome GIF](https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-ynmvLvIVxxofJuk9MO)")
