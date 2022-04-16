@@ -149,4 +149,4 @@ elif option == 'About Me':
     # "https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-ynmvLvIVxxofJuk9MO", 
     # width=400, 
     # )
-    st.write("![Your Awsome GIF](https://giphy.com/clips/bestfriends-best-friends-adopt-animal-adoption-ynmvLvIVxxofJuk9MO)")
+    st.write("![Your Awsome GIF](https://media3.giphy.com/media/ynmvLvIVxxofJuk9MO/giphy360p.mp4?cid=ecf05e47beuuc7shndhgevobc4qogh4yslyqqla1c1ejyxrc&rid=giphy360p.mp4&ct=v)")
