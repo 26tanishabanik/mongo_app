@@ -146,3 +146,4 @@ elif option == 'About Me':
     st.text("")
     st.markdown("© Tune Private Limited. All cats reserved", unsafe_allow_html = True)
     st.markdown("![Alt Text](https://media.giphy.com/media/l4FGuaSEpfDmJSwg0/giphy.gif)")
+    st.markdown("![Alt Text](https://media.giphy.com/media/YOkVtQYKrP900bWdoC/giphy.gif)")
