@@ -145,8 +145,4 @@ elif option == 'About Me':
     st.text("")
     st.text("")
     st.markdown("Tune Private Limited ", unsafe_allow_html = True)
-    st.image(
-    "https://media3.giphy.com/media/ynmvLvIVxxofJuk9MO/giphy360p.mp4?cid=ecf05e47beuuc7shndhgevobc4qogh4yslyqqla1c1ejyxrc&rid=giphy360p.mp4&ct=v", 
-    width=400, 
-    )
-    # st.write("![Your Awsome GIF](https://media3.giphy.com/media/ynmvLvIVxxofJuk9MO/giphy360p.mp4?cid=ecf05e47beuuc7shndhgevobc4qogh4yslyqqla1c1ejyxrc&rid=giphy360p.mp4&ct=v)")
+    st.markdown("![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)")
